@@ -1,1 +1,1 @@
-alert(wasup)
+alert("wasup")
