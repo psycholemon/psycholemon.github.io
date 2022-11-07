@@ -1,1 +1,1 @@
-alert(wasup)
+console.log("Hello World!")
