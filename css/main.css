@@ -1,3 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 47, 47);
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .title {
-  color: black;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.description {
+    color: whitesmoke;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.quote {
+    color: whitesmoke;
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 25px;
 }
