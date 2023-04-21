@@ -1,5 +1,5 @@
 var askForPW = prompt("Passwords")
-var password = "LEMONS4LIFE"
+var password = "ILIKELEMONS4LIFE"
 if (password == askForPW) {
   alert("Correct")
 } else {
