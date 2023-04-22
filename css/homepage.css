@@ -11,32 +11,6 @@ body {
     background-image: url(/snowyMountains.png);
 }
 
-ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity here */
-}
-
-li.navbar-item {
-    float: left;
-}
-
-/* Style for navbar links */
-li.navbar-item a {
-    display: block;
-    color: #FFFFFF; /* Adjust text color here */
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change navbar link color when hovered */
-li.navbar-item a:hover {
-    background-color: #919ca4;
-}
-
 /* Style for content */
 .content {
     padding: 20px;
