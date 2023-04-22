@@ -13,12 +13,14 @@ body {
 img {
   length: 50%;
   width: 50%;
+  border-radius: 10px;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
   }
+
   .gallery-item {
     flex-basis: 25%;
     padding: 10px;
