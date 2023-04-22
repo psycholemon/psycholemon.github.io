@@ -11,18 +11,16 @@ body {
 }
 
 img {
-  length: 30%;
   width: 30%;
   border-radius: 10px;
 }
 
 .gallery {
   display: grid;
-  marginL 100px;
+  margin: 100px;
   }
 
 .gallery-item {
-  flex-basis: 25%;
   padding: 10px;
 }
 
