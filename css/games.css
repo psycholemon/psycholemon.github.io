@@ -17,6 +17,8 @@ img {
 
 .gallery {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use auto-fit for responsive grid and set minmax for minimum and maximum column width */
+  gap: 10px;
   margin: 100px;
   }
 
