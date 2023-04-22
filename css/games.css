@@ -17,8 +17,8 @@ img {
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  marginL 100px;
   }
 
 .gallery-item {
