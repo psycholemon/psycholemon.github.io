@@ -10,6 +10,11 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+img {
+  length: 50%;
+  width: 50%;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
