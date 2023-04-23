@@ -8,6 +8,7 @@
 body {
   background-image: url(/snowyMountains.png);
   font-family: 'Karla', sans-serif;
+  height: 100%;
 }
 
 img {
