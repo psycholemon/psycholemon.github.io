@@ -10,29 +10,3 @@ body {
   font-family: 'Karla', sans-serif;
   height: 100%;
 }
-
-img {
-  border-radius: 10px;
-  width: 150px;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use auto-fit for responsive grid and set minmax for minimum and maximum column width */
-  gap: 10px;
-  margin: 100px;
-  }
-
-.gallery-item {
-  padding: 10px;
-}
-
-.gallery-item img {
-  max-width: 100%;
-  height: auto;
-  transition: box-shadow .3s;
-}
-
-.gallery-item img:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
