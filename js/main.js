@@ -1,9 +1,10 @@
-var askForPW = prompt("Passwords")
-var password = "Derekisnothim"
-if (password == askForPW) {
-  alert("Correct")
-} else if (askForPW = "LEMONS4LIFE"){
-  alert("Welcome, Admin")
-} else {
-  window.location.replace("http://www.psycholemon.github.io");
-}
+def validate():  
+  p = "LEMON4LIFE"
+  password = input("Enter a password: ")
+  if password = p:
+  print("Nice")
+  else:
+      print("Your password is not correct")
+      redirect('htpps://sdafjl.github.io')
+
+validate()
