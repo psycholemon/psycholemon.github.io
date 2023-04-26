@@ -1,10 +1,10 @@
-def validate():  
-  p = "LEMON4LIFE"
-  password = input("Enter a password: ")
-  if password = p:
-  print("Nice")
-  else:
-      print("Your password is not correct")
-      redirect('www.google.com')
+import webbrowser
 
-validate()
+url = 'https://www.google.com'
+password = "LEMONS4LIFE"
+input = input("What is the password?")
+if password == input:
+    print("Password is valid")
+else:
+  webbrowser.open_new_tab(url)
+    
