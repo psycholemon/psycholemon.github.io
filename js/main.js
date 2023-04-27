@@ -3,6 +3,6 @@ window.onload=function(){
  if (password == "LEMONS4LIFE"){
   document.getElementById("ID").innerHTML = password;
  }else{
-  location.href = 'https://www.google.com';
+  location.href = 'https://www.youtube.com/shorts/96GnOB1iZQI';
  }
 }
