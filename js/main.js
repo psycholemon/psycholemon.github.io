@@ -1,10 +1,7 @@
-import webbrowser
-
-url = 'https://www.google.com'
-password = "LEMONS4LIFE"
-input = input("What is the password?")
-if password == input:
-    print("Password is valid")
-else:
-  webbrowser.open_new_tab(url)
-    
+ window.onload=function(){
+var password = window.prompt("Enter your password","");
+     if (password == "LEMONS4LIFE"){
+                  document.getElementById("ID").innerHTML = password;
+     }else{
+     location.href = 'google.com';
+     }
